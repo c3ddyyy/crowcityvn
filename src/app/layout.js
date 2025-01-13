@@ -12,8 +12,9 @@ export const metadata = {
 export default function Layout({ children }) {
   return (
     <>
-      <Head>
-      <link rel="icon" href="/favicons/crow_logo.ico" sizes="any" />
+    <Head></Head>
+      <head>
+        <link rel="icon" href="/favicons/crow_logo.ico" sizes="any" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
@@ -27,8 +28,8 @@ export default function Layout({ children }) {
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
-         <title>Crow City VN, Reality Roleplay</title>
-      </Head>
+        <title>Crow City VN, Reality Roleplay</title>
+      </head>
       <html lang="en">
         <body className="antialiased">
           <Navbar />

@@ -279,7 +279,7 @@ export default function Home() {
             </button>
             {isClient && (
                 <ReactPlayer
-                    url="https://www.youtube.com/watch?v=j8U06veqxdU"
+                    url="https://www.youtube.com/watch?v=Os9N4ucAC4U"
                     playing={isPlaying}
                     controls={true}
                     width="0px"
