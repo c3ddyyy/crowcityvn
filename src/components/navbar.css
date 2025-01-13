@@ -1,0 +1,46 @@
+.navbar-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    perspective: 500px;
+}
+
+.navbar-header {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    transform:  skewX(-20deg);
+    flex-grow: 1;
+    text-align: center;
+    padding-left: 120px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.navbar-header:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-discord {
+    text-align: right;
+}
+
+.navbar-discord img {
+    width: 100px;
+}
+
+.server-logo {
+    width: 50px;
+}
