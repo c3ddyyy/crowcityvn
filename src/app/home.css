@@ -167,6 +167,10 @@ body::-webkit-scrollbar {
     text-decoration: none;
   }
 
+  .server-feature-container {
+    overflow-x: hidden;
+  }
+
   .feature-container {
     max-width: 1800px;
     user-select: none;
@@ -235,6 +239,7 @@ body::-webkit-scrollbar {
     -webkit-user-select: none;
     -ms-user-select: none;
     max-width: 1500px;
+    overflow-x: hidden;
   }
   .sf-image img {
     -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);

@@ -1,3 +1,7 @@
+.navbar-main {
+    overflow-x: hidden;
+}
+
 .navbar-container {
     position: absolute;
     top: 0;

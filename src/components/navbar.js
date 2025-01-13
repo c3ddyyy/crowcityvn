@@ -37,7 +37,7 @@ function Navbar() {
     };
 
     return (
-        <div>
+        <div className="navbar-main">
         <div className="navbar-container">
             
             <img className="server-logo" src="image/crow_logo.png"/>
