@@ -6,7 +6,7 @@ export default function Home() {
         <div>
             <div className="home-video-container">
                 <video autoPlay loop muted playsInline>
-                    <source src="video/GTA5.mp4" type="video/mp4" />
+                    <source src="video/Crow_CIty.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <div className="overlay">
@@ -120,13 +120,31 @@ export default function Home() {
                             <p>Cấu trúc hàng hoá</p>
                         </div>
                     </div>
-                </div>
+           </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 sf-col">
                     <div className="spe-feature-content">
                         <i className="fa-solid fa-briefcase"></i>
                         <div className="sp-content">
                             <h2>Nghề nghiệp</h2>
                             <p>Nghề nghiệp đa dạng</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 sf-col">
+                    <div className="spe-feature-content">
+                    <i className="fa-solid fa-disease"></i>
+                        <div className="sp-content">
+                            <h2>bệnh tật</h2>
+                            <p>Bệnh tật cần phòng ngừa và điều trị.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 sf-col">
+                    <div className="spe-feature-content">
+                    <i className="fa-solid fa-disease"></i>
+                        <div className="sp-content">
+                            <h2>đảo zombie</h2>
+                            <p>Một hòn đảo toàn zombie</p>
                         </div>
                     </div>
                 </div>
@@ -142,7 +160,7 @@ export default function Home() {
                             <h1>Tham gia cộng đồng Discord của chúng tôi ngay hôm nay!</h1>
                             <p>Hãy gia nhập cộng đồng để kết nối với những người chơi khác, tham gia các sự kiện đặc biệt và nhận thông tin mới nhất về game! Đừng bỏ lỡ cơ hội trở thành một phần của gia đình Crow City.</p>
                             <div className="discord-join-content">
-                            <a href="https://discord.gg/ZqPaSvQR" target="_blank" rel="noopener noreferrer">Tham Gia cộng đồng</a>
+                            <a href="https://www.facebook.com/profile.php?id=61569960695494" target="_blank" rel="noopener noreferrer">Tham Gia cộng đồng</a>
                             </div>
                         </div>
                     </div>
