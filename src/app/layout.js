@@ -12,7 +12,7 @@ export default function Layout({ children }) {
   return (
     <>
       <head>
-      <link rel="icon" href="/favicon/crow_logo.ico" sizes="any" />
+      <link rel="icon" href="/favicons/crow_logo.ico" sizes="any" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
