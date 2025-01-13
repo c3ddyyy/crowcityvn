@@ -36,7 +36,7 @@ export default function Layout({ children }) {
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
-         <title>Crow City Vn, Reality Roleplay</title>
+         <title>Crow City VN, Reality Roleplay</title>
       </head>
       <html lang="en">
         <body className="antialiased">

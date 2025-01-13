@@ -141,7 +141,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 sf-col">
                     <div className="spe-feature-content">
-                    <i className="fa-solid fa-disease"></i>
+                    <i class="fa-solid fa-biohazard"></i>
                         <div className="sp-content">
                             <h2>đảo zombie</h2>
                             <p>Một hòn đảo toàn zombie</p>
