@@ -229,7 +229,7 @@ export default function Home() {
 
                     </div>
                     <div className="col-md-3 col-sm-6 team-content">
-                        <img src="image/zoro.jpg"/>
+                        <img src="gif/zoro-2.gif"/>
                         <h1>Huma</h1>
                         <h2>Dev/UI</h2>
 
