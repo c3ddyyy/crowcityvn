@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
 import Navbar from "@/components/navbar";
+import Head from "next/head";
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +12,7 @@ export const metadata = {
 export default function Layout({ children }) {
   return (
     <>
-      <head>
+      <Head>
       <link rel="icon" href="/favicons/crow_logo.ico" sizes="any" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -27,7 +28,7 @@ export default function Layout({ children }) {
           referrerPolicy="no-referrer"
         />
          <title>Crow City VN, Reality Roleplay</title>
-      </head>
+      </Head>
       <html lang="en">
         <body className="antialiased">
           <Navbar />

@@ -1,7 +1,48 @@
-import Image from "next/image";
+"use client";
+
 import './home.css';
+import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
+import ReactPlayer from "react-player";
 
 export default function Home() {
+    const bottomRef = useRef(null);
+    const [isClient, setIsClient] = useState(false);
+    const [isPlaying, setIsPlaying] = useState(false);
+    const [showScrollToTop, setShowScrollToTop] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 300) {
+                setShowScrollToTop(true);
+            } else {
+                setShowScrollToTop(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
+    const togglePlay = () => {
+        setIsPlaying((prev) => !prev);
+    };
+
+    const scrollToBottom = () => {
+        if (bottomRef.current) {
+            bottomRef.current.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
     return (
         <div>
             <div className="home-video-container">
@@ -15,13 +56,16 @@ export default function Home() {
                                 <div className="welcome-content">
                                     <h1>Chào mừng đến với Crow City</h1>
                                     <p>The Beauty of reality roleplay</p>
-                                    <div className="each">
-                                        <a href="https://discord.gg/ZqPaSvQR" target="_blank" rel="noopener noreferrer" className="join-button"><span>THAM GIA</span></a>
+                                    <div className="join-container">
+                                        <a href="https://discord.gg/ZqPaSvQR" target="_blank" rel="noopener noreferrer" className="join-button"><span>Đăng ký</span></a>
+                                        <a href="https://cfx.re/join/j9y654" target="_blank" rel="noopener noreferrer" className="join-button join-button-main" style={{ transform: 'scale(1.3)',maxWidth: '200px'}}><span>Truy cập</span></a>
+                                        <Link href="/huong-dan" className="join-button"><span>Hướng dẫn</span></Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div className="down-arrow-overlay" onClick={scrollToBottom}> </div>
                     <div className="down-arrow"></div>
                 </div>
             </div>
@@ -140,7 +184,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12 sf-col">
                     <div className="spe-feature-content">
-                    <i class="fa-solid fa-biohazard"></i>
+                    <i className="fa-solid fa-biohazard"></i>
                         <div className="sp-content">
                             <h2>đảo zombie</h2>
                             <p>Một hòn đảo toàn zombie</p>
@@ -169,7 +213,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="container team-container">
+            <div ref={bottomRef} className="container team-container">
             <h1>Crow City Team</h1>
                 <div className="row">
                     <div className="col-md-3 col-sm-6 team-content">
@@ -222,6 +266,28 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <div
+                className={`scroll-to-top ${showScrollToTop ? "visible" : ""}`}
+                onClick={scrollToTop}
+            >
+                ↑
+            </div>
+
+            <button
+            className="play-button" onClick={togglePlay}>
+                {isPlaying ? "Pause music" : "Play music"}
+            </button>
+            {isClient && (
+                <ReactPlayer
+                    url="https://www.youtube.com/watch?v=j8U06veqxdU"
+                    playing={isPlaying}
+                    controls={true}
+                    width="0px"
+                    height="0px"
+                    volume={0.1}
+                />
+            )}
+
         </div>
     );
 }
