@@ -47,7 +47,7 @@ export default function Home() {
         <div>
             <div className="home-video-container">
                 <video autoPlay loop muted playsInline>
-                    <source src="video/Crow_CIty.mp4" type="video/mp4" />
+                    <source src="video/Crow_City2.mp4" type="video/mp4" />
                 </video>
                 <div className="overlay">
                     <div className="container">
@@ -279,7 +279,7 @@ export default function Home() {
             </button>
             {isClient && (
                 <ReactPlayer
-                    url="https://www.youtube.com/watch?v=Os9N4ucAC4U"
+                    url="https://www.youtube.com/watch?v=vvQ0lfhLRnk"
                     playing={isPlaying}
                     controls={true}
                     width="0px"
