@@ -7,32 +7,7 @@ import ReactPlayer from "react-player";
 
 export default function Home() {
     const bottomRef = useRef(null);
-    const [isClient, setIsClient] = useState(false);
-    const [isPlaying, setIsPlaying] = useState(false);
-    const [showScrollToTop, setShowScrollToTop] = useState(false);
 
-    useEffect(() => {
-        setIsClient(true);
-    }, []);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            if (window.scrollY > 300) {
-                setShowScrollToTop(true);
-            } else {
-                setShowScrollToTop(false);
-            }
-        };
-
-        window.addEventListener("scroll", handleScroll);
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
-
-    const togglePlay = () => {
-        setIsPlaying((prev) => !prev);
-    };
 
     const scrollToBottom = () => {
         if (bottomRef.current) {
@@ -40,9 +15,6 @@ export default function Home() {
         }
     };
 
-    const scrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-    };
     return (
         <div>
             <div className="home-video-container">
@@ -266,28 +238,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div
-                className={`scroll-to-top ${showScrollToTop ? "visible" : ""}`}
-                onClick={scrollToTop}
-            >
-                ↑
-            </div>
-
-            <button
-            className="play-button" onClick={togglePlay}>
-                {isPlaying ? "Pause music" : "Play music"}
-            </button>
-            {isClient && (
-                <ReactPlayer
-                    url="https://www.youtube.com/watch?v=vvQ0lfhLRnk"
-                    playing={isPlaying}
-                    controls={true}
-                    width="0px"
-                    height="0px"
-                    volume={0.1}
-                />
-            )}
-
         </div>
     );
 }
