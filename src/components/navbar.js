@@ -39,8 +39,9 @@ function Navbar() {
     return (
         <div className="navbar-main">
         <div className="navbar-container">
-            
+            <Link href='/'>
             <img className="server-logo" src="image/crow_logo.png"/>
+            </Link>
             <Link href="/" className="navbar-header">Crow City</Link>
             <Link href="https://discord.gg/ZqPaSvQR" target="_blank" rel="noopener noreferrer" className="navbar-discord">
                 <img className="discord-link" src="image/toppng.com-discord-logo-3000x2000.png" alt="Discord" />
@@ -59,12 +60,13 @@ function Navbar() {
             </button>
             {isClient && (
                 <ReactPlayer
-                    url="https://www.youtube.com/watch?v=vvQ0lfhLRnk"
+                    url="https://www.youtube.com/watch?v=0vtDMBk4hFI"
                     playing={isPlaying}
                     controls={true}
                     width="0px"
                     height="0px"
                     volume={0.1}
+                    loop={true}
                 />
             )}
 

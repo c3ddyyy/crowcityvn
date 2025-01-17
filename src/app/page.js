@@ -225,7 +225,7 @@ export default function Home() {
 
                     </div>
                     <div className="col-md-3 col-sm-6 team-content">
-                        <img src="image/MR-THREE.png"/>
+                        <img src="gif/mr three.gif"/>
                         <h1>MR three</h1>
                         <h2>HELPER</h2>
 
