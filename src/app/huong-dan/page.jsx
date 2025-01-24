@@ -5,20 +5,27 @@ import Job from "@/components/job";
 import Menu from "@/components/menu";
 import ShortCut from "@/components/shortcut";
 import Link from "next/link";
+import Feature from "@/components/feature";
+import Ingrediants from "@/components/ingrediants";
+import Location from "@/components/location";
 
 import("./huongdan.css");
 
 function HuongDan() {
-  const [activeComponent, setActiveComponent] = useState("menu");
+  const [activeComponent, setActiveComponent] = useState("location");
 
   const renderActiveComponent = () => {
     switch (activeComponent) {
       case "shortcut":
         return <ShortCut />;
-      case "menu":
-        return <Menu />;
-      case "job":
-        return <Job />;
+      case "feature":
+        return <Feature />;
+        case "ingrediants":
+          return <Ingrediants />;
+          case "location":
+            return <Location />;
+            case "job":
+              return <Job />;
       default:
         return null;
     }
@@ -42,15 +49,39 @@ function HuongDan() {
           </span>
           <span
             className={`join-button ${
-              activeComponent === "menu" ? "join-button-main" : ""
+              activeComponent === "feature" ? "join-button-main" : ""
             }`}
             style={{
-              transform: activeComponent === "menu" ? "scale(1.3)" : "none",
-              maxWidth: activeComponent === "menu" ? "200px" : "150px",
+              transform: activeComponent === "feature" ? "scale(1.3)" : "none",
+              maxWidth: activeComponent === "feature" ? "200px" : "150px",
             }}
-            onClick={() => setActiveComponent("menu")}
+            onClick={() => setActiveComponent("feature")}
           >
-            <span>Menu</span>
+            <span>Tính năng</span>
+          </span>
+          <span
+            className={`join-button ${
+              activeComponent === "location" ? "join-button-main" : ""
+            }`}
+            style={{
+              transform: activeComponent === "location" ? "scale(1.3)" : "none",
+              maxWidth: activeComponent === "location" ? "200px" : "150px",
+            }}
+            onClick={() => setActiveComponent("location")}
+          >
+            <span>Địa điểm</span>
+          </span>
+          <span
+            className={`join-button ${
+              activeComponent === "ingrediants" ? "join-button-main" : ""
+            }`}
+            style={{
+              transform: activeComponent === "ingrediants" ? "scale(1.3)" : "none",
+              maxWidth: activeComponent === "ingrediants" ? "200px" : "150px",
+            }}
+            onClick={() => setActiveComponent("ingrediants")}
+          >
+            <span>Nguyên Liệu</span>
           </span>
           <span
             className={`join-button ${

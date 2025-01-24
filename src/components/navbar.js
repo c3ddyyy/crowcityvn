@@ -60,7 +60,7 @@ function Navbar() {
             </button>
             {isClient && (
                 <ReactPlayer
-                    url="https://www.youtube.com/watch?v=0vtDMBk4hFI"
+                    url="https://www.youtube.com/watch?v=FY2eZgBelR0"
                     playing={isPlaying}
                     controls={true}
                     width="0px"

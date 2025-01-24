@@ -1,0 +1,28 @@
+.ingrediants-container {
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.ingrediants-container h1 {
+    font-family: "Roboto", serif;
+    font-weight: 800;
+    font-size: 40px;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    transform: rotateY(-10deg) skewX(-5deg);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.ingrediants-container p {
+    font-family: "Roboto", serif;
+    font-weight: 800;
+    font-size: 17px;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    transform: rotateY(-10deg) skewX(-5deg);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333;
+}
+

@@ -2,20 +2,19 @@ import "./shortcut.css";
 
 function ShortCut() {
     const shortcuts = [
-        { key: "F1", action: "Menu Tương Tác Chính" },
-        { key: "~", action: "Menu Tương Tác Nhanh" },
-        { key: "X", action: "Hủy hành động, bỏ đồ vật đang cầm." },
-        { key: "Z", action: "Hiển thị thông tin (Công việc, hành động....)." },
-        { key: "G", action: "Phím tương tác, thực thi hành động." },
+        { key: "F1", action: "Menu tính năng chung" },
+        { key: "~", action: "Menu tương tác nhanh" },
+        { key: "E / G", action: "Tương tác" },
+        { key: "1, 2, 3, 4, 5", action: "Phím sử dụng nhanh" },
+        { key: "B", action: "Hành động Chỉ tay"},
         { key: "Y", action: "Mở menu thay trang phục nhanh." },
         { key: "U", action: "Mở menu điều khiển phương tiện." },
         { key: "ALT", action: "Mở mắt tương tác." },
-        { key: "F2", action: "Mở kho đồ." },
-        { key: "CTRL", action: "Ngồi" },
-        { key: "B", action: "Hành động chỉ điểm" },
-        { key: "L", action: "Khóa phương tiện nhanh." },
-        { key: "M", action: "Mở điên thoại." },
+        { key: "TAB", action: "Mở kho đồ." },
+        { key: "LCTRL", action: "Ngồi" },
         { key: "F9", action: "Mở thông báo công việc (Chỉ dùng với những công việc dịch vụ)" },
+        { key: "RCTRL", action: "Nằm" },
+        { key: "L", action: "Khóa phương tiện nhanh." },
     ];
 
     return (
