@@ -232,6 +232,7 @@ body::-webkit-scrollbar {
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
     transform: rotateY(-10deg) skewX(-5deg);
     text-transform: uppercase;
+    border-bottom: none!important;
   }
 
   .special-feature {
