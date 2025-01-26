@@ -5,33 +5,33 @@ function Location() {
     const locationData = [
         {
             title: "ĐỒN CẢNH SÁT",
-            img: "image/crow_logo.png",
+            img: "image/police.png",
             description: "Nơi cơ quan chức năng thực thi nhiệm vụ lưu trú",
         },
         {
             title: "BỆNH VIỆN",
-            img: "image/crow_logo.png",
+            img: "image/ambulance.png",
             description: "Nơi chữa trị, kiểm tra, xử lí bệnh tật, vết thương",
         },
         {
             title: "GARA TRUNG TÂM",
-            img: "image/crow_logo.png",
+            img: "image/centergarage.png",
             description: "Nơi mọi người cất phương tiện khi có động đất",
         },
         {
             title: "PHARMACY",
-            img: "image/crow_logo.png",
+            img: "image/pharmacy.png",
             description: "Nơi cung cấp, phát triển......",
 
         },
         {
             title: "TOÀ THỊ CHÍNH",
-            img: "image/crow_logo.png",
+            img: "image/toachichinh.png",
             description: "Nơi cơ quan quản lí thành phố",
         },
         {
             title: "CỨU HỘ",
-            img: "image/crow_logo.png",
+            img: "image/cuuho.png",
             description: "Sửa xe, độ xe, nơi những",
         }
     ];

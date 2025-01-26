@@ -6,52 +6,57 @@ const jobData = [
     {
         title: "làm vườn",
         video: "https://www.youtube.com/watch?v=HWoTLuaDuZg",
-        img: "image/crow_logo.png",
+        img: "job-image/gardener.png",
     },
     {
         title: "Câu cá",
         video: "https://www.youtube.com/watch?v=HWoTLuaDuZg",
-        img: "image/crow_logo.png",
+        img: "job-image/fishing.png",
     },
     {
         title: "mò cua bắt ốc",
         video: "https://www.youtube.com/watch?v=HWoTLuaDuZg",
-        img: "image/crow_logo.png",
+        img: "job-image/snail.png",
+    },
+    {
+        title: "Câu rùa",
+        video: "https://www.youtube.com/watch?v=HWoTLuaDuZg",
+        img: "job-image/turtle.png",
     },
     {
         title: "Taxi",
         video: "https://www.youtube.com/watch?v=HWoTLuaDuZg",
-        img: "image/crow_logo.png",
+        img: "job-image/taxi1.png",
     },
     {
         title: "Bus",
         video: "https://www.youtube.com/watch?v=HWoTLuaDuZg",
-        img: "image/crow_logo.png",
+        img: "job-image/bus.png",
     },
     {
         title: "nông trại",
         video: "https://www.youtube.com/watch?v=HWoTLuaDuZg",
-        img: "image/crow_logo.png",
+        img: "job-image/fruit.png",
     },
     {
         title: "Thợ gỗ",
         video: "https://www.youtube.com/watch?v=HWoTLuaDuZg",
-        img: "image/crow_logo.png",
+        img: "job-image/lumber.png",
     },
     {
         title: "Pizza",
         video: "https://www.youtube.com/watch?v=HWoTLuaDuZg",
-        img: "image/crow_logo.png",
+        img: "job-image/pizza.png",
     },
     {
         title: "Tái chế",
         video: "https://www.youtube.com/watch?v=HWoTLuaDuZg",
-        img: "image/crow_logo.png",
+        img: "job-image/recycle.png",
     },
     {
         title: "ĐÀO QUẶNG",
         video: "https://www.youtube.com/watch?v=HWoTLuaDuZg",
-        img: "image/crow_logo.png",
+        img: "job-image/ore.png",
     }
 ];
 

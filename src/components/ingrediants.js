@@ -5,33 +5,38 @@ function Ingrediants () {
     const ingrediantsData = [
         {
             title: "HOA QUẢ",
-            img: "image/crow_logo.png",
+            img: "job-image/fruit.png",
             description: "Hoa quả trong thành phố có thể sử dụng với nhiều tác dụng như bỏ sung vitamin, tăng hấp thu nước, tăng sức khoẻ",
         },
         {
             title: "HẢI SẢN",
-            img: "image/crow_logo.png",
+            img: "job-image/fishing.png",
             description: "Hải sản sẽ giúp bạn bổ sung năng lượng, vitamin và sức khoẻ. Nguồn bổ sung năng lượng tuyệt vời cho cư dân",
         },
         {
             title: "GỖ VÀ CỦI",
-            img: "image/crow_logo.png",
+            img: "job-image/lumber.png",
             description: "Bạn có thể lấy được ở những cánh rừng. Có thể sử dụng để đốt lửa, chế tạo công cụ,...",
         },
         {
             title: "QUẶNG",
-            img: "image/crow_logo.png",
+            img: "job-image/ore.png",
             description: "Quặng có rất nhiều tác dụng, nhưng chủ yếu để chế tạo dụng cụ...",
 
         },
         {
             title: "RÁC THẢI TÁI CHẾ",
-            img: "image/crow_logo.png",
+            img: "job-image/recycle.png",
             description: "Rác thải có thể dùng để tái chế thành các dụng cụ trong thành phố",
         },
         {
             title: "SINH VẬT NHỎ",
-            img: "image/crow_logo.png",
+            img: "job-image/snail.png",
+            description: "Những sinh vật nhỏ trong thành phố có thể sử dụng để nuôi, chế biến món ăn, chế tạo mồi câu cá",
+        },
+        {
+            title: "rùa",
+            img: "job-image/turtle.png",
             description: "Những sinh vật nhỏ trong thành phố có thể sử dụng để nuôi, chế biến món ăn, chế tạo mồi câu cá",
         },
     ];

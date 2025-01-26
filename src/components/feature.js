@@ -5,17 +5,17 @@ function Feature() {
     const featureData = [
         {
             title: "SỰ KIỆN",
-            img: "image/crow_logo.png",
+            img: "image/sukien.png",
             description: "Giúp bạn cập nhật sự kiện, nhận quà, mua đồ giới hạn",
         },
         {
             title: "HƯỚNG DẪN",
-            img: "image/crow_logo.png",
+            img: "image/huongdan.png",
             description: "Xem hướng dẫn về các tính năng",
         },
         {
             title: "BẢN ĐỒ",
-            img: "image/crow_logo.png",
+            img: "image/bando.png",
             description: "Hiển thị tất cả địa điểm trong thành phố",
         },
     ];
