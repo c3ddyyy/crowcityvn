@@ -19,7 +19,7 @@ export default function Home() {
         <div>
             <div className="home-video-container">
                 <video autoPlay loop muted playsInline>
-                    <source src="video/Crow_City2.mp4" type="video/mp4" />
+                    <source src="video/crow-city-clip.mp4" type="video/mp4" />
                 </video>
                 <div className="overlay">
                     <div className="container">
