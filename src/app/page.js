@@ -172,7 +172,7 @@ export default function Home() {
                 <div className="row">
                     <div className="col-md-9 jd-box">
                         <div className="jd-content">
-                            <h1>Tham gia cộng đồng Facebook của chúng tôi ngay hôm nay!</h1>
+                            <h1>Tham gia cộng đồng Discord của chúng tôi ngay hôm nay!</h1>
                             <p>Hãy gia nhập cộng đồng để kết nối với những người chơi khác, tham gia các sự kiện đặc biệt và nhận thông tin mới nhất về game! Đừng bỏ lỡ cơ hội trở thành một phần của gia đình Crow City.</p>
                             <div className="discord-join-content">
                             <a href="https://discord.gg/ZqPaSvQR" target="_blank" rel="noopener noreferrer">Tham Gia cộng đồng</a>

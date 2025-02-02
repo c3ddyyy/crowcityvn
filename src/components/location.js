@@ -5,12 +5,12 @@ function Location() {
     const locationData = [
         {
             title: "ĐỒN CẢNH SÁT",
-            img: "image/police.png",
+            img: "image/cscrow.avif",
             description: "Nơi cơ quan chức năng thực thi nhiệm vụ lưu trú",
         },
         {
             title: "BỆNH VIỆN",
-            img: "image/ambulance.png",
+            img: "image/benhviencrow.png",
             description: "Nơi chữa trị, kiểm tra, xử lí bệnh tật, vết thương",
         },
         {
@@ -31,9 +31,30 @@ function Location() {
         },
         {
             title: "CỨU HỘ",
-            img: "image/cuuho.png",
+            img: "image/cuuhocrow.png",
             description: "Sửa xe, độ xe, nơi những",
-        }
+        },
+        {
+            title: "Nhà hàng Sandy",
+            img: "image/nhahangsandy.png",
+            description: "Nhà hàng tại đảo Sandy, nền ẩm thực tinh hoa của Crow City sẽ có mặt tại đây.",
+        },
+        {
+            title: "Quán bar Sandy",
+            img: "image/barsandy.png",
+            description: "Quán bar tại đảo Sandy là nơi vui chơi tuyệt vời",
+        },
+        {
+            title: "Sân bay",
+            img: "image/airportcrow.png",
+            description: "Sân bay thành phố là địa điểm có nhiều ngành kinh doanh, và cũng là nơi vận chuyển, di chuyển qua một số vị trí trong thành phố.",
+        },
+        {
+            title: "Nông trại",
+            img: "image/crowfarm.png",
+            description: "Nông sản trong thành phố đều được sản xuất tại đây",
+        },
+
     ];
 
     return (
