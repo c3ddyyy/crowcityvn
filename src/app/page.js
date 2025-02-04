@@ -29,9 +29,9 @@ export default function Home() {
                                     <h1>Chào mừng đến với Crow City</h1>
                                     <p>The Beauty of reality roleplay</p>
                                     <div className="join-container">
-                                        <a href="https://discord.gg/XwdDw3fgWX" target="_blank" rel="noopener noreferrer" className="join-button"><span>Đăng ký</span></a>
-                                        <a href="https://cfx.re/join/j9y654" target="_blank" rel="noopener noreferrer" className="join-button join-button-main" style={{ transform: 'scale(1.3)',maxWidth: '200px'}}><span>Truy cập</span></a>
-                                        <Link href="/huong-dan" className="join-button"><span>Hướng dẫn</span></Link>
+                                        <Link href="https://discord.gg/XwdDw3fgWX" target="_blank" rel="noopener noreferrer" className="join-button"><span>Đăng ký</span></Link>
+                                        <Link href="https://cfx.re/join/j9y654" target="_blank" rel="noopener noreferrer" className="join-button join-button-main" style={{ transform: 'scale(1.3)',maxWidth: '200px'}}><span>Truy cập</span></Link>
+                                        <Link href="https://rioh-dev.gitbook.io/crow-ciy-manual" target="_blank" rel="noopener noreferrer" className="join-button"><span>Hướng dẫn</span></Link>
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@ export default function Home() {
                             <h1>Tham gia cộng đồng Discord của chúng tôi ngay hôm nay!</h1>
                             <p>Hãy gia nhập cộng đồng để kết nối với những người chơi khác, tham gia các sự kiện đặc biệt và nhận thông tin mới nhất về game! Đừng bỏ lỡ cơ hội trở thành một phần của gia đình Crow City.</p>
                             <div className="discord-join-content">
-                            <a href="https://discord.gg/XwdDw3fgWX" target="_blank" rel="noopener noreferrer">Tham Gia cộng đồng</a>
+                            <Link href="https://discord.gg/XwdDw3fgWX" target="_blank" rel="noopener noreferrer">Tham Gia cộng đồng</Link>
                             </div>
                         </div>
                     </div>
