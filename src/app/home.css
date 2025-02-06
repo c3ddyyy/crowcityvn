@@ -428,6 +428,31 @@ body::-webkit-scrollbar {
     color: #acacac;
 }
 
+.fv-container {
+  margin-bottom: 250px!important;
+}
+
+.featured-video-header {
+  text-align: center;
+  font-family: "Roboto", serif;
+  font-weight: 800;
+  font-size: 40px;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  transform: rotateY(-10deg) skewX(-5deg);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.featured-video-desc {
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: Roboto, serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-shadow: rgba(0, 0, 0, 0.5) 4px 4px 10px;
+  transform: rotateY(-10deg) skewX(-5deg);
+  text-transform: uppercase;
+}
 
 
   @keyframes jumpInfinite {

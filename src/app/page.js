@@ -7,6 +7,11 @@ import ReactPlayer from "react-player";
 
 export default function Home() {
     const bottomRef = useRef(null);
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
 
 
     const scrollToBottom = () => {
@@ -184,6 +189,32 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <div className="container text-center my-5 fv-container">
+            <h1 className="featured-video-header">Featured Video</h1>
+            <p className="featured-video-desc">Thưởng thức những đoạn video mới nhất từ Crow City, Reality Roleplay!</p>
+      <div className="row align-items-center">
+        <div className="col-md-6">
+           {isClient && (
+                         <ReactPlayer
+                         url="https://www.youtube.com/watch?v=iwJbeNaq3Ew&t=60s"
+                         controls
+                         width="100%"
+                        height="500px"
+                         />
+                     )}
+        </div>
+        <div className="col-md-6">
+          {isClient && (
+                        <ReactPlayer
+                        url="https://www.youtube.com/watch?v=V82tXy3-WbY"
+                        controls
+                        width="100%"
+                        height="500px"
+                        />
+                    )}
+        </div>
+      </div>
+    </div>
 
             <div ref={bottomRef} className="container team-container">
             <h1>Crow City Team</h1>
