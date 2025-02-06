@@ -196,7 +196,7 @@ export default function Home() {
         <div className="col-md-6">
            {isClient && (
                          <ReactPlayer
-                         url="https://www.youtube.com/watch?v=iwJbeNaq3Ew&t=60s"
+                         url="https://www.youtube.com/watch?v=iwJbeNaq3Ew"
                          controls
                          width="100%"
                         height="500px"
