@@ -1,5 +1,6 @@
 "use client";
 
+import LoadingScreen from '@/components/LoadingScreen';
 import './home.css';
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
@@ -22,6 +23,7 @@ export default function Home() {
 
     return (
         <div>
+             <LoadingScreen  />
             <div className="home-video-container">
                 <video autoPlay loop muted playsInline>
                     <source src="video/crow-city-clip.mp4" type="video/mp4" />
