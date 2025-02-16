@@ -231,12 +231,6 @@ export default function Home() {
 
                     </div>
                     <div className="col-md-3 col-sm-6 team-content">
-                        <img src="gif/zoro-2.gif"/>
-                        <h1>Huma</h1>
-                        <h2>Dev/UI</h2>
-
-                    </div>
-                    <div className="col-md-3 col-sm-6 team-content">
                         <img src="image/yuri-v2.jpg"/>
                         <h1>Yuri</h1>
                         <h2>Helper</h2>
